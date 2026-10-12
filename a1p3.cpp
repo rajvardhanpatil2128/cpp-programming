@@ -7,8 +7,8 @@ int main()
     int choice;
     double a, b;
 
-    do
-    {
+    
+    
         cout << "\n--- MENU-DRIVEN CALCULATOR ---" << endl;
         cout << "1. Addition" << endl;
         cout << "2. Subtraction" << endl;
@@ -64,7 +64,7 @@ int main()
                 cout << "Invalid choice! Please try again." << endl;
         }
 
-    } while (choice != 6);
+     
 
     return 0;
 
